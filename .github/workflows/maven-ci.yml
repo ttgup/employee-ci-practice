@@ -19,3 +19,8 @@ jobs:
           cache: maven
       - name: Build and test with Maven
         run: mvn clean package
+      - name: Upload JAR
+        uses: actions/upload-artifact@v4
+        with:
+          name: employee-ci-practice
+          path: target/*.jar
