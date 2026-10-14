@@ -8,6 +8,6 @@ public class EmployeeTest {
 
     @Test
     public void testEmployeeName() {
-        assertEquals("David:", Employee.getName());
+        assertEquals("John", Employee.getName());
     }
 }
