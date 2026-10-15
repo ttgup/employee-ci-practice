@@ -5,6 +5,7 @@ on:
     branches:
       - main
       - ci-branch-practice
+     
 
 jobs:
   build:
